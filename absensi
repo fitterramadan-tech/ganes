@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Sederhana</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4e73df, #1cc88a);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            background-color: white;
+            color: #4e73df;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #f8f9fc;
+            transform: scale(1.05);
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        🚀 Aplikasi HTML Pertama Saya
+    </header>
+
+    <div class="container">
+        <p>Selamat datang di aplikasi berbasis HTML.</p>
+        <button onclick="showMessage()">Klik Saya</button>
+    </div>
+
+    <footer>
+        © 2026 Aplikasi Saya
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Halo! Aplikasi berhasil berjalan 🎉");
+        }
+    </script>
+
+</body>
+</html>
